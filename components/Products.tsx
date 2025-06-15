@@ -20,13 +20,19 @@ interface FakeStoreApiData {
 
 const Products = () => {
   const [data, setData] = useState<FakeStoreApiData[]>([]);
+  const [isLoading, setIsLoading] = useState<boolean>(false);
 
   const fetchData = async () => {
     try {
+      setIsLoading(true);
       const res = await axios.get('https://fakestoreapi.com/products');
       setData(res.data);
-    } catch (error) {
+    } 
+    catch (error) {
       console.error("Failed to fetch products:", error);
+    } 
+    finally {
+      setIsLoading(false);
     }
   };
 
@@ -43,11 +49,17 @@ const Products = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        {data.map((product) => (
-          <Card key={product.id} product={product} />
-        ))}
-      </div>
+      {isLoading ? (
+        <div className="flex justify-center items-center min-h-[300px]">
+          <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-b-4 border-white" />
+        </div>
+      ) : (
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {data.map((product) => (
+            <Card key={product.id} product={product} />
+          ))}
+        </div>
+      )}
     </div>
   );
 };
