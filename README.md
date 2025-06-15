@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 👜 TannTrim – Landing Page Website
 
-## Getting Started
+TannTrim is a stylish and minimal landing page website created to showcase premium bags and accessories with a modern, sleek user interface. Built using **Next.js** and **Tailwind CSS**, the site is fully responsive and optimized for mobile and desktop views.
 
-First, run the development server:
+---
+
+## 🚀 Features
+
+- 🧭 Responsive Navigation Bar  
+- 📱 Mobile-Friendly Slide-In Menu  
+- 🛍️ Product Listing Section (via FakeStore API)  
+- 💫 Smooth Hover Effects and Transitions  
+- 🎨 Dark Themed Design with Clean Typography  
+- ⚙️ Built with Next.js and Tailwind CSS
+
+---
+
+## 🛠️ Tech Stack
+
+- **Next.js** – React Framework for SSR and routing  
+- **Tailwind CSS** – Utility-first CSS framework for styling  
+- **TypeScript** – Type safety and better DX  
+- **FakeStore API** – Dummy product data  
+- **Heroicons / React Icons** – For consistent iconography
+
+---
+
+## 📂 Project Structure
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+.
+├── components/
+│   ├── Navbar.tsx
+│   └── Card.tsx
+├── app/
+│   └── page.tsx
+├── constants/
+│   └── index.ts
+├── public/
+├── styles/
+├── README.md
+└── ...
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+📦 Installation
+1. Clone the repository
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+    git clone https://github.com/yourusername/tanntrim.git
+    cd tanntrim
 
-## Learn More
+2. Install dependencies
 
-To learn more about Next.js, take a look at the following resources:
+    npm install
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Run the development server
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+    npm run dev
 
-## Deploy on Vercel
+4. Open http://localhost:3000 to view it in the browser.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🙌 Acknowledgements
+1. FakeStoreAPI for mock product data
+2. Heroicons / React Icons
+3.Tailwind CSS
+
+✨ Upcoming Enhancements
+Product detail pages
+
+Authentication (Sign In / Register)
+
+Shopping cart functionality
+
+Admin panel for managing products

@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Next-App",
-  description: "Bascis of Next.js",
+  title: "TANN TRIM",
+  description: "This is Simple Landing page in Next.js and used Tailwind CSS for styling",
 };
 
 export default function RootLayout({
