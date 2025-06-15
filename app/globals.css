@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+.BagsImages{
+    /* width: 15%; */
+    aspect-ratio: 3/2;
+}
+
+.responsiveBagsImage{
+    aspect-ratio: 1/2;
+}
+
+.scrollbar{
+    &::-webkit-scrollbar{
+        display: none;
+    }
+}
