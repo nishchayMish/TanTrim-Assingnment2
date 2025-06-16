@@ -15,7 +15,7 @@ const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-black w-full shadow-md px-4 py-4 relative z-50 opacity-[0.98]">
+    <nav className="bg-black w-full shadow-md px-4 sm:px-15 py-4 relative z-50 opacity-[0.98]">
       {/* Top Row */}
       <div className="flex items-center justify-between">
         <h2 className="text-gray-300 text-2xl tracking-widest">TANN TRIM</h2>
