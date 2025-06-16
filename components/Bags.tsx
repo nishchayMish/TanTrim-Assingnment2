@@ -10,7 +10,7 @@ const Bags = () => {
           {PRODUCTS.map((item) => (
             <div
               key={item.id}
-              className="min-w-[120px] sm:min-w-[160px] flex flex-col items-center justify-center rounded-xl px-4 py-2 snap-start"
+              className="min-w-[120px] sm:min-w-[160px] flex flex-col items-center justify-center rounded-xl px-4 py-2 snap-start cursor-pointer hover:bg-[#141414]"
             >
               <div className="w-16 h-16 sm:w-20 sm:h-20 relative mb-2">
                 <Image
