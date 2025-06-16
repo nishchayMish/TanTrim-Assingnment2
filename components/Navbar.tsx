@@ -18,7 +18,7 @@ const Navbar = () => {
     <nav className="bg-black w-full shadow-md px-4 sm:px-15 py-4 relative z-50 opacity-[0.98]">
       {/* Top Row */}
       <div className="flex items-center justify-between">
-        <h2 className="text-gray-300 text-2xl tracking-widest">TANN TRIM</h2>
+        <h2 className="text-gray-300 text-2xl tracking-[12px] font-[100]">TANN TRIM</h2>
 
         {/* Desktop Icons */}
         <div className="hidden md:flex items-center gap-4 text-gray-300 text-2xl cursor-pointer">
