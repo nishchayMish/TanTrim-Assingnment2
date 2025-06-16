@@ -22,44 +22,36 @@ export const NavLinks = [
 ];
 
 export const PRODUCTS = [
-    {
-        id: 1,
-        name: "All Bags",
-        image: '/first.png'
-    },
-    {
-        id: 2,
-        name: "Vanity Pouch",
-        image: '/second.png'
-    },
-    {
-        id: 3,
-        name: "Tote Bag",
-        image: '/third.png'
-    },
-    {
-        id: 4,
-        name: "Duffle Bag",
-        image: '/forth.png'
-    },
-    {
-        id: 5,
-        name: "Laptop Sleeve",
-        image: '/fifth.png'
-    },
-    {
-        id: 6,
-        name: "Messanger Bags",
-        image: '/sixth.png'
-    },
-    {
-        id: 7,
-        name: "Sling Bags",
-        image: '/seventh.png'
-    },
-    {
-        id: 8,
-        name: "Handbags",
-        image: '/eighth.png'
-    },
-]
+  {
+    id: 1,
+    image: "/Group 475.svg"
+  },
+  {
+    id: 2,
+    image: "/Group 307.svg"
+  },
+  {
+    id: 3,
+    image: "/Group 300.svg"
+  },
+  {
+    id: 4,
+    image: "/Group 301.svg"
+  },
+  {
+    id: 5,
+    image: "/Group 302.svg"
+  },
+  {
+    id: 6,
+    image: "/Group 303.svg"
+  },
+  {
+    id: 7,
+    image: "/Group 304.svg"
+  },
+  {
+    id: 8,
+    image: "/Group 305.svg"
+  },
+];
